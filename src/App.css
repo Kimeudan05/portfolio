@@ -4,7 +4,8 @@
 
 body {
   padding-top: 60px;
-  min-height: 100vh;
+  min-height: 120vh;
+  padding-bottom: 60px;
 }
 
 /* Change the color of the toggler icon */
@@ -25,5 +26,5 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  min-height: 120vh;
 }

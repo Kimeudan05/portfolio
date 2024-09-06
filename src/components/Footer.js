@@ -30,7 +30,7 @@ const Footer = () => {
             <h2>Company kilo</h2>
           </Col>
           <Col>
-            <Nav className=" ">
+            <Nav>
               <NavLink to="/" className="text-white">
                 Home
               </NavLink>

@@ -18,7 +18,7 @@ const NavbarLayout = () => {
   return (
     <>
       <Navbar
-        expand="md"
+        expand="lg"
         fixed="top"
         collapseOnSelect
         className="bg-dark"
