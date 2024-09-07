@@ -55,7 +55,7 @@ const Projects = () => {
 
   return (
     <Container fluid>
-      <Row className="mt-3">
+      <Row className="mt-4">
         {projects.map((project) => (
           <Col lg={3} md={4} sm={6} className="mb-4" key={project.id}>
             <Card className="h-100">
