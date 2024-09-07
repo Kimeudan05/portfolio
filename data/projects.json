@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Rock Paper Scissors",
+      "deploy_date": "23/02/2023",
+      "description": "A rock paper scissors game to practice on functions and math module of javascript",
+      "img": "../images/rock-paper-scissors.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Caculator",
+      "deploy_date": "10/11/2023",
+      "description": "A calculator app to practice much on grid layout in css",
+      "link": "https://calmas.netlify.app/",
+      "img": "../images/ack.jpg"
+    },
+
+    {
+      "id": 3,
+      "name": "Graphic Design",
+      "deploy_date": "23/02/2011",
+      "description": "Design Dom elements before initial coding",
+      "img": "../images/graphic.jpg"
+    },
+    {
+      "id": 4,
+      "name": "School portal",
+      "deploy_date": "02/03/2024",
+      "description": "the project is designed using the concept of rest api to fetch data from an online source",
+      "img": "../images/ack.jpg"
+    },
+    {
+      "id": 5,
+      "name": "To do List",
+      "deploy_date": "13/07/2024",
+      "description": "To do list app is designed to ewscord tasks which you ought to do over time. it uses the concept of local storage to make them available even after page refresh",
+      "img": "../images/todo-list.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Mpesa integration",
+      "deploy_date": "30/08/2024",
+      "description": "it uses safaricom daraja api to integrate mpesa ",
+      "img": "../images/daraja.png"
+    }
+  ]
+}

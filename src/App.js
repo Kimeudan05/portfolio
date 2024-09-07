@@ -1,7 +1,7 @@
 import "./App.css";
 import Footer from "./components/Footer";
 import NavbarLayout from "./components/Navbar";
-import ContactUs from "./components/Contact";
+
 import Home from "./components/Home";
 import {
   createBrowserRouter,
