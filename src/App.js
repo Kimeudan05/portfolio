@@ -13,7 +13,7 @@ import {
 import AboutUs from "./components/About";
 import Projects from "./components/Projects";
 import Portfolio from "./components/Portfolio";
-import Contacts from "./components/Contacts";
+import Contacts from "./components/Contacts.tsx";
 
 function App() {
   const routing = createBrowserRouter(
@@ -43,6 +43,7 @@ function App() {
   return (
     <div className="App ">
       <RouterProvider router={routing} />
+
       <Footer />
     </div>
   );

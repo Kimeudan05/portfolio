@@ -62,7 +62,7 @@ const Projects = () => {
           <Col lg={3} md={4} sm={6} className="mb-4" key={project.id}>
             <Card className="h-100">
               <Card.Header className="bg-primary text-white">
-                <h2 className="h5">{project.name}</h2>
+                <h2 className="h5 project-name">{project.name}</h2>
               </Card.Header>
               <Card.Body>
                 <NavLink to={project.link || "#"}>

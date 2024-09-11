@@ -45,17 +45,26 @@ const Footer = () => {
             <p>Email :kimeudan05@gmail.com</p>
             <p>Phone : +254799182231</p> */}
             <div className="icons d-flex justify-content-center h-100 align-items-center">
-              <FontAwesomeIcon icon={faTwitter} style={{ color: "blue" }} />
+              <FontAwesomeIcon
+                icon={faTwitter}
+                style={{ color: "blue", margin: "2px ", width: "40px" }}
+              />
               <FontAwesomeIcon
                 icon={faLinkedin}
-                style={{ color: "blue", margin: "10px " }}
+                style={{ color: "blue", margin: "2px ", width: "40px" }}
               />
               <FontAwesomeIcon
                 icon={faYoutubeSquare}
-                style={{ color: "blue" }}
+                style={{ color: "blue", margin: "2px ", width: "40px" }}
               />
-              <FontAwesomeIcon icon={faInstagram} style={{ color: "blue" }} />
-              <FontAwesomeIcon icon={faWhatsapp} style={{ color: "blue" }} />
+              <FontAwesomeIcon
+                icon={faInstagram}
+                style={{ color: "blue", margin: "2px ", width: "40px" }}
+              />
+              <FontAwesomeIcon
+                icon={faWhatsapp}
+                style={{ color: "blue", margin: "2px ", width: "40px" }}
+              />
             </div>
           </Col>
         </Row>

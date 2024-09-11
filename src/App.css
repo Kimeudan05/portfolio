@@ -28,3 +28,17 @@ body {
 main {
   min-height: 120vh;
 }
+
+.project-name {
+  text-transform: capitalize;
+}
+
+.FontAwesomeIcon {
+  width: 40px;
+}
+
+.whatsapp {
+  position: absolute;
+  top: 500px;
+  right: 40px;
+}

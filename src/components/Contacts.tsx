@@ -1,9 +1,18 @@
 import React from "react";
+import WhatsappButton from "../api/WhatsappButton.tsx"; // Adjust the import path if necessary
 
-const Contacts = () => {
+interface ContactProps {
+  message: string;
+  number: string;
+}
+
+const Contacts = ({ message, number }: ContactProps) => {
+  const phoneNumber = "+254799182231"; // Example phone number
+  const messages = "Hello Kimeu Daniel, I got your number from your website. please help me do some projects"
+
   return (
     <main className="h-100">
-      <div className=" bg-body-secondary d-flex flex-column w-50 m-auto pt-5">
+      <div className="bg-primary d-flex flex-column w-50 m-auto p-3">
         <h2>Email us</h2>
         <div className="form-group ms-3">
           <label htmlFor="name" className="form-label">
@@ -26,7 +35,7 @@ const Contacts = () => {
             placeholder="abc@gmail.com"
           />
         </div>
-        <div className="form-group ms-3 ">
+        <div className="form-group ms-3">
           <label htmlFor="text" className="form-label">
             Enter Text
           </label>
@@ -41,6 +50,7 @@ const Contacts = () => {
           Send
         </button>
       </div>
+      <WhatsappButton message={messages} phoneNumber={phoneNumber} />
     </main>
   );
 };
