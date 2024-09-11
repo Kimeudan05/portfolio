@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Image,
-  Stack,
-  Nav,
-  NavLink,
-} from "react-bootstrap";
+import { Container, Row, Col, Nav, NavLink } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,

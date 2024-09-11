@@ -30,12 +30,14 @@ const Projects = () => {
     },
     {
       id: 4,
-      name: "School portal",
-      deploy_date: "02/03/2024",
+      name: "Tic Tac Toe",
+      deploy_date: "11/09/2024",
       description:
-        "the project is designed using the concept of rest api to fetch data from an online source",
-      img: "../images/ack.jpg",
+        "The project utilizes the use of state and also introduction to components",
+      img: "../images/tic-tac.png",
+      link: "https://masilatic.netlify.app/",
     },
+
     {
       id: 5,
       name: "To do List",

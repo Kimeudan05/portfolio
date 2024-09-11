@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "name": "Caculator",
+      "name": "Calculator app",
       "deploy_date": "10/11/2023",
       "description": "A calculator app to practice much on grid layout in css",
       "link": "https://calmas.netlify.app/",
@@ -25,16 +25,17 @@
     },
     {
       "id": 4,
-      "name": "School portal",
-      "deploy_date": "02/03/2024",
-      "description": "the project is designed using the concept of rest api to fetch data from an online source",
-      "img": "../images/ack.jpg"
+      "name": "Tic Tac Toe",
+      "deploy_date": "11/09/2024",
+      "description": "The project utilizes the use of state and also introduction to components",
+      "img": "../images/tic-tac.png",
+      "link": "https://masilatic.netlify.app/"
     },
     {
       "id": 5,
       "name": "To do List",
       "deploy_date": "13/07/2024",
-      "description": "To do list app is designed to ewscord tasks which you ought to do over time. it uses the concept of local storage to make them available even after page refresh",
+      "description": "To do list app is designed to record tasks which you ought to do over time. it uses the concept of local storage to make them available even after page refresh",
       "img": "../images/todo-list.jpg"
     },
     {
