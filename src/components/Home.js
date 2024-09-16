@@ -1,23 +1,30 @@
 import React from "react";
+// import "./Home.css"; // Add this CSS file for styling
 
 const Home = () => {
   return (
-    <main>
-      <div className="container-fluid  min-vh-100">
-        <section className="d-flex flex-column justify-content-center align-items-center vh-100">
-          <h1>Welcome to My portfolio</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-            reprehenderit laboriosam, quod inventore dicta asperiores eligendi
-            sed quam enim dolorem nesciunt esse aspernatur! Quos, hic magnam
-            illo facere et distinctio!
+    <main className="container-fluid home-container">
+      <div className="home-content">
+        <div className="image-container">
+          <img src="../images/masila.jpg" alt="Images" className="img" />
+        </div>
+        <h1 className="company-title">Kimeu Daniel Tech Solutions</h1>
+        <p className="description">
+          This is a company started with the aim to aid in building appealing
+          websites for many users.
+        </p>
+        <p className="description">
+          To make that happen, we incorporate other team members to ensure
+          everything works perfectly.
+        </p>
+      </div>
+      <div className="marquee-container">
+        <div className="marquee">
+          <p className="fs-4 text-primary ">
+            Building appealing websites | Ensuring user satisfaction | Creating
+            seamless experiences
           </p>
-        </section>
-        <section>
-          Based on the knowledge i gained on react, i have seen it better to
-          make an appealing website using react bootstrap concept as well as
-          react Router
-        </section>
+        </div>
       </div>
     </main>
   );

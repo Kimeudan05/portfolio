@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home-container {
+  /* background-color: #f0f4f8; */
+  /* Light blue-gray background */
+  padding: 40px;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.image-container {
+  margin-bottom: 20px;
+  animation: slideIn 1.5s ease-out;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
+.company-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  animation: fadeInUp 2s ease-in-out;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.marquee-container {
+  margin-top: 30px;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.marquee p {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}

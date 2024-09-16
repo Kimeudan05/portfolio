@@ -1,14 +1,13 @@
-.App {
-  text-align: center;
-}
-
 body {
-  padding-top: 60px;
-  min-height: 120vh;
+  padding-top: 47px;
+  height: 110vh;
   padding-bottom: 60px;
+  font-family: Arial, sans-serif;
+  max-width: 100vw;
+  width: 100vw;
+  background: linear-gradient(to right, yellow, green);
 }
 
-/* Change the color of the toggler icon */
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
@@ -20,25 +19,211 @@ body {
   box-shadow: none;
 }
 
-/* Optional: Adjust the size or padding of the toggler */
-.custom-toggler {
-  font-size: 30px
+/* Adjust navbar padding */
+.navbar {
+  padding: 15px;
 }
 
+/* Main section should fit well on smaller screens */
 main {
   min-height: 120vh;
+  padding: 20px;
 }
 
 .project-name {
   text-transform: capitalize;
 }
 
+/* Icon sizes for different screen sizes */
 .FontAwesomeIcon {
   width: 40px;
 }
 
 .whatsapp {
-  position: absolute;
-  top: 500px;
-  right: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+/* Responsiveness for small devices */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    font-size: 14px;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 18px;
+  }
+
+  .whatsapp {
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+/* footer */
+
+.footer {
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.social-icon {
+  font-size: 2.5rem;
+  padding: 10px;
+  transition: color 0.3s ease;
+
+}
+
+.social-icon:hover {
+  color: #ddd;
+}
+
+/* details */
+.project-details {
+  text-align: center;
+}
+
+.project-image {
+  width: 300px;
+  max-width: 600px;
+}
+
+/* Adjust as needed */
+/* height: auto;
+margin: 0 auto;
+display: block;
+}
+
+*/
+.project-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.back-button {
+  margin-left: auto;
+}
+
+/* home*/
+.img {
+
+  width: 300px;
+  border-radius: 50%;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+/* about */
+.about-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-content {
+  margin-bottom: 30px;
+}
+
+h1,
+h2 {
+  color: #007bff;
+  /* Bootstrap primary color */
+  text-align: center;
+}
+
+.skills ul,
+.experience ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.skills ul li,
+.experience ul li {
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* navbar */
+/* Navbar background */
+.navbar.bg-dark {
+  background-color: #343a40;
+}
+
+/* Center nav links on smaller screens */
+@media (max-width: 992px) {
+  .navbar .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Style the nav links */
+.nav .nav-link,
+.nav a {
+  color: white;
+  padding: 10px 20px;
+
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.nav .nav-link:hover,
+.nav a:hover {
+  background-color: #bdc7d3;
+  /* Bootstrap primary color */
+
+  border-radius: 5px;
+}
+
+/* Active effect */
+.nav .nav-link.active,
+.nav a.active {
+  color: blue;
+  border-radius: 5px;
+}
+
+/* Additional padding for nav links */
+.nav .nav-link,
+.nav a {
+  padding: 10px 25px;
+}
+
+/* Remove text decoration */
+.nav .nav-link,
+.nav a {
+  text-decoration: none;
+}
+
+/* Additional padding for the navbar brand */
+.navbar-brand {
+  padding: 10px 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }

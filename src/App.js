@@ -14,6 +14,7 @@ import AboutUs from "./components/About";
 import Projects from "./components/Projects";
 import Portfolio from "./components/Portfolio";
 import Contacts from "./components/Contacts.tsx";
+import ProjectDetails from "./components/ProjectDetails";
 
 function App() {
   const routing = createBrowserRouter(
@@ -23,16 +24,14 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<AboutUs />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="projects/:id" element={<ProjectDetails />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contacts" element={<Contacts />} />
           <Route
             path="*"
             element={
               <div>
-                page not found{" "}
-                <Link>
-                  Back to home <Home />
-                </Link>
+                Page not found. <Link to="/">Back to home</Link>
               </div>
             }
           />
@@ -40,10 +39,10 @@ function App() {
       </>
     )
   );
-  return (
-    <div className="App ">
-      <RouterProvider router={routing} />
 
+  return (
+    <div className="App">
+      <RouterProvider router={routing} />
       <Footer />
     </div>
   );
